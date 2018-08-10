@@ -18,4 +18,4 @@ mappings.forEach(info => {
 
 Object.entries(aliases)
   .sort(([a], [b]) => a.localeCompare(b))
-  .forEach(([name, module]) => console.log(`${name}: '${module}',`));
+  .forEach(([name, module]) => console.log(`'${name}': '${module}',`));
